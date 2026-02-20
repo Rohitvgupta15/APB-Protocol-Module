@@ -93,7 +93,6 @@ Simulation waveforms confirm correct signal handshaking, timing behavior, and pr
 - **rtl/**
   - apb_master.v – APB master RTL module  
   - apb_slave.v – APB slave RTL module  
-  - apb_top.v – Top-level APB integration module  
 
 - **tb/**
   - apb_tb.v – APB protocol testbench  
