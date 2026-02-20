@@ -88,18 +88,17 @@ The design has been verified through simulation for:
 
 Simulation waveforms confirm correct signal handshaking, timing behavior, and protocol compliance.
 
-.
-├── rtl/
-│   ├── apb_master.v   # APB master RTL module
-│   ├── apb_slave.v    # APB slave RTL module
-│   └── apb_top.v      # Top-level APB integration module
-│
-├── tb/
-│   └── apb_tb.v       # APB protocol testbench
-│
-└── README.md          # Project documentation
+## Repository Structure
 
+- **rtl/**
+  - apb_master.v – APB master RTL module  
+  - apb_slave.v – APB slave RTL module  
+  - apb_top.v – Top-level APB integration module  
 
+- **tb/**
+  - apb_tb.v – APB protocol testbench  
+
+- **README.md** – Project documentation
 ---
 
 ## Intended Use
